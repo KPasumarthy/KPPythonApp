@@ -16,7 +16,6 @@ def greet(who_to_greet):
     greeting = "KP : Hello, {}".format(who_to_greet)
     return greeting
 
-
 # KP : Print 'greet()'
 print(greet("World"))
 print(greet("Kailash"))
@@ -28,7 +27,7 @@ print("KP : Hello, ", name)
 # KP : Initialize Local API Requests - With OUT Headers - http:// 500 Error Response
 url = "http://kpmvcwebapis.com/api/Persons/27"
 r = requests.get(url)
-print("KP : " + url + " Status Code : " + str(r.status_code))
+print("KP : " + url + " Status Code : " + str(r.status_code)  + " Response OK : " + str(r.ok))
 
 # KP : Initialize Local API Requests - With Headers - http:// 200 OK Response
 url = "http://kpmvcwebapis.com/api/Persons/27"
@@ -37,15 +36,17 @@ headers = {
     "accept": "text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8",
     "accept-Encoding": "gzip, deflate",
     "accept-language": "en-US, en; q=0.5",
-    "Connection": "Keep-Alive",
+    "connection": "keep-alive",
 }
 response = requests.get(url, headers=headers)
-print("KP : " + url + " Status Code : " + str(response.status_code))
+respString = ("KP : " + url + " Status Code : " + str(response.status_code) + " Response OK : " + str(response.ok))
+print(respString)
 print(response.text)
 
 # KP : Initialize External API Requests
 url = "https://www.cnn.com/"
 response = requests.get(url)
-print("KP : " + url + " Status Code : " + str(response.status_code))
+respString = ("KP : " + url + " Status Code : " + str(response.status_code) + " Response OK : " + str(response.ok));
+print(respString)
 # print(response.text);
 
