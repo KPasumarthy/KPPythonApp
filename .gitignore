@@ -1,0 +1,3 @@
+#KP : Git ignore files and directories
+/venv
+.vscode
