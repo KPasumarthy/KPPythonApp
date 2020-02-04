@@ -17,14 +17,26 @@ def greet(who_to_greet):
 print(greet('World'))
 print(greet('Kailash'))
 
-#KP : Initialize Local API Requests
+#KP : Initialize Local API Requests - With OUT Headers - http:// 500 Error Response
 url = "http://kpmvcwebapis.com/api/Persons/27"
 r = requests.get(url)
 print("KP : " + url + " Status Code : " + str(r.status_code))
 
+#KP : Initialize Local API Requests - With Headers - http:// 200 OK Response
+url = "http://kpmvcwebapis.com/api/Persons/27"
+headers = { 'content-type': 'application/json',
+            'accept': 'text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8',
+            'accept-Encoding': 'gzip, deflate',
+            'accept-language' : 'en-US, en; q=0.5',
+            'Connection':'Keep-Alive'}
+response = requests.get(url,  headers=headers)
+#data = r.json();
+print("KP : " + url + " Status Code : " + str(response.status_code))
+print(response.text);
+
 #KP : Initialize External API Requests
 url = "https://www.cnn.com/"
-r = requests.get(url)
-print("KP : " + url + " Status Code : " + str(r.status_code))
-
+response = requests.get(url)
+print("KP : " + url + " Status Code : " + str(response.status_code))
+#print(response.text);
 
