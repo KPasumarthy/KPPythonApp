@@ -16,19 +16,6 @@ import auxiliaryModule
 print(sys.version)
 print(sys.executable)
 
-# KP : define 'greet()'# KP : Import 'sys' Commands
-import sys
-import math
-import os
-
-# KP : Import requests #KP : Run Command : 'pip install requests' : Installs 'requests' library
-import requests
-
-# KP : Import python Logger
-import logging
-import auxiliary_module
-import ../log/
-
 # KP : Import 'print' commandcl
 print(sys.version)
 print(sys.executable)
@@ -120,10 +107,9 @@ print(response.text)
 # KP : Initialize External API Requests
 url = "https://www.cnn.com/"
 response = requests.get(url)
-if(response.ok)){
+if(response.ok):
     respString = ("KP : " + url + " Status Code : " + str(response.status_code) + " Response OK : " + str(response.ok));
-    
-}
+
 print(respString)
 # print(response.text);
 

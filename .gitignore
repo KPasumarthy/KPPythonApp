@@ -1,3 +1,6 @@
 #KP : Git ignore files and directories
 /venv
 .vscode
+
+#KP : Git ignore Machine Learning (ML) Files
+/kppyappml/
