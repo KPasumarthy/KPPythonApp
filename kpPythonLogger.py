@@ -1,7 +1,9 @@
 # KP : Import python Logger
 import logging
-#import auxiliaryModule
 import auxiliary_module
+
+
+#import auxiliary_module
 
 #Create Logger with 'Spam_Application'
 logger = logging.getLogger('kpPythonLogger_Spam_App')

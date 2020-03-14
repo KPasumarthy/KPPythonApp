@@ -1,20 +1,15 @@
 # KP : Import 'sys' Commands
-import sys
+# KP : Import python Logger
+import logging
 import math
 import os
+import sys
 
 # KP : Import requests #KP : Run Command : 'pip install requests' : Installs 'requests' library
 import requests
 
-# KP : Import python Logger
-import logging
 import auxiliary_module
-import auxiliaryModule
-
-
-# KP : Import 'print' commandcl
-print(sys.version)
-print(sys.executable)
+import kplogger_module
 
 # KP : Import 'print' commandcl
 print(sys.version)
@@ -112,4 +107,3 @@ if(response.ok):
 
 print(respString)
 # print(response.text);
-

@@ -1,6 +1,11 @@
-#KP : Git ignore files and directories
+#KP : Git Ignore files and directories
 /venv
 .vscode
 
+<<<<<<< Updated upstream
 #KP : Git ignore Machine Learning (ML) Files
+=======
+#KP : Git Ignore Machine Learning (ML) files and directories
+/ml/
+>>>>>>> Stashed changes
 /kppyappml/
