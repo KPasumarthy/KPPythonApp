@@ -1,0 +1,36 @@
+2020-03-13 22:35:09,861 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Creating an instance of auxillary_module.Auxillary
+2020-03-13 22:35:09,862 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Created an instance of auxiliary_module.Auxiliary
+2020-03-13 22:35:09,862 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Calling auxiliary_module.Auxiliary.do_something
+2020-03-13 22:35:09,862 - kpPythonLogger_Spam_App - INFO - KP : finished auxiliary_module.Auxiliary.do_something
+2020-03-13 22:35:09,862 - kpPythonLogger_Spam_App - INFO - KP : calling auxiliary_module.some_function()
+2020-03-13 22:35:09,862 - kpPythonLogger_Spam_App - INFO - KP : done with auxiliary_module.some_function()
+2020-03-13 22:37:57,790 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Creating an instance of auxillary_module.Auxillary
+2020-03-13 22:37:57,793 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Created an instance of auxiliary_module.Auxiliary
+2020-03-13 22:37:57,793 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Calling auxiliary_module.Auxiliary.do_something
+2020-03-13 22:37:57,793 - kpPythonLogger_Spam_App - INFO - KP : finished auxiliary_module.Auxiliary.do_something
+2020-03-13 22:37:57,793 - kpPythonLogger_Spam_App - INFO - KP : calling auxiliary_module.some_function()
+2020-03-13 22:37:57,793 - kpPythonLogger_Spam_App - INFO - KP : done with auxiliary_module.some_function()
+2020-03-13 22:38:08,744 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Creating an instance of auxillary_module.Auxillary
+2020-03-13 22:38:08,744 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Created an instance of auxiliary_module.Auxiliary
+2020-03-13 22:38:08,744 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Calling auxiliary_module.Auxiliary.do_something
+2020-03-13 22:38:08,744 - kpPythonLogger_Spam_App - INFO - KP : finished auxiliary_module.Auxiliary.do_something
+2020-03-13 22:38:08,744 - kpPythonLogger_Spam_App - INFO - KP : calling auxiliary_module.some_function()
+2020-03-13 22:38:08,744 - kpPythonLogger_Spam_App - INFO - KP : done with auxiliary_module.some_function()
+2020-03-14 09:57:13,272 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Creating an instance of auxillary_module.Auxillary
+2020-03-14 09:57:13,272 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Created an instance of auxiliary_module.Auxiliary
+2020-03-14 09:57:13,272 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Calling auxiliary_module.Auxiliary.do_something
+2020-03-14 09:57:13,272 - kpPythonLogger_Spam_App - INFO - KP : finished auxiliary_module.Auxiliary.do_something
+2020-03-14 09:57:13,272 - kpPythonLogger_Spam_App - INFO - KP : calling auxiliary_module.some_function()
+2020-03-14 09:57:13,272 - kpPythonLogger_Spam_App - INFO - KP : done with auxiliary_module.some_function()
+2020-03-14 10:05:43,849 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Creating an instance of auxillary_module.Auxillary
+2020-03-14 10:05:43,851 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Created an instance of auxiliary_module.Auxiliary
+2020-03-14 10:05:43,851 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Calling auxiliary_module.Auxiliary.do_something
+2020-03-14 10:05:43,852 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : finished auxiliary_module.Auxiliary.do_something
+2020-03-14 10:05:43,853 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : calling auxiliary_module.some_function()
+2020-03-14 10:05:43,867 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : done with auxiliary_module.some_function()
+2020-03-14 10:06:45,290 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Creating an instance of auxillary_module.Auxillary
+2020-03-14 10:06:45,292 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Created an instance of auxiliary_module.Auxiliary
+2020-03-14 10:06:45,292 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : Calling auxiliary_module.Auxiliary.do_something
+2020-03-14 10:06:45,293 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : finished auxiliary_module.Auxiliary.do_something
+2020-03-14 10:06:45,304 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : calling auxiliary_module.some_function()
+2020-03-14 10:06:45,305 - kpPythonLogger_Spam_App - INFO - KP : kpPythonLogger : done with auxiliary_module.some_function()

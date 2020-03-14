@@ -3,8 +3,14 @@ import sys
 import math
 import os
 
-# KP : import requests #KP : Run Command : 'pip install requests' : Installs 'requests' library
+# KP : Import requests #KP : Run Command : 'pip install requests' : Installs 'requests' library
 import requests
+
+# KP : Import python Logger
+import logging
+import auxiliary_module
+import auxiliaryModule
+
 
 # KP : Import 'print' commandcl
 print(sys.version)
@@ -46,7 +52,10 @@ print(response.text)
 # KP : Initialize External API Requests
 url = "https://www.cnn.com/"
 response = requests.get(url)
-respString = ("KP : " + url + " Status Code : " + str(response.status_code) + " Response OK : " + str(response.ok));
+if(response.ok)){
+    respString = ("KP : " + url + " Status Code : " + str(response.status_code) + " Response OK : " + str(response.ok));
+    
+}
 print(respString)
 # print(response.text);
 
