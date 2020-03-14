@@ -2,8 +2,8 @@
 import logging
 
 #Create Logger with 'KPPythonApp'
-logger = logging.getLogger('KPPythonApp')
-logger.setLevel(logging.DEBUG)
+kplogger_module = logging.getLogger('KPPythonApp')
+kplogger_module.setLevel(logging.DEBUG)
 
 #KP : Define KPLogger Class
 class KPLogger:
@@ -21,8 +21,30 @@ class KPLogger:
         fh.setFormatter(formatter)
         ch.setFormatter(formatter)
         #Add the handlers to the logger
-        logger.addHandler(fh)
-        logger.addHandler(ch)
+        kplogger_module.addHandler(fh)
+        kplogger_module.addHandler(ch)
 
     def __kplogger_log(self):
         self.logger.info("KP : KPPythonApp-PythonLogger.KPLogger")
+
+def info():
+    kplogger_module.info('KP : KPPythonApp-PythonLogger.KPLogger "info"')
+    print('KP : KPPythonApp-PythonLogger.KPLogger "info"')
+
+def debug():
+    kplogger_module.debug('KP : KPPythonApp-PythonLogger.KPLogger "debug"')
+    print('KP : KPPythonApp-PythonLogger.KPLogger "debug"')
+
+def warning():
+    kplogger_module.warning('KP : KPPythonApp-PythonLogger.KPLogger "warning"')
+    print('KP : KPPythonApp-PythonLogger.KPLogger "warning"')
+
+def error():
+    kplogger_module.error('KP : KPPythonApp-PythonLogger.KPLogger "error"')
+    print('KP : KPPythonApp-PythonLogger.KPLogger "error"')
+
+def exception():
+    kplogger_module.exception('KP : KPPythonApp-PythonLogger.KPLogger "exception"')
+    print('KP : KPPythonApp-PythonLogger.KPLogger "exception"')
+
+        

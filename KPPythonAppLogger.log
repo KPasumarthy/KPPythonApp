@@ -1,0 +1,6 @@
+2020-03-14 18:38:16,195 - KPPythonApp - INFO - KP : KPPythonApp-PythonLogger.KPLogger "info"
+2020-03-14 18:57:10,390 - KPPythonApp - INFO - KP : KPPythonApp-PythonLogger.KPLogger "info"
+2020-03-14 18:57:59,271 - KPPythonApp - ERROR - KP : KPPythonApp-PythonLogger.KPLogger "error"
+2020-03-14 18:57:59,279 - KPPythonApp - INFO - KP : KPPythonApp-PythonLogger.KPLogger "info"
+2020-03-14 18:57:59,574 - KPPythonApp - INFO - KP : KPPythonApp-PythonLogger.KPLogger "info"
+2020-03-14 18:58:13,982 - KPPythonApp - INFO - KP : KPPythonApp-PythonLogger.KPLogger "info"
