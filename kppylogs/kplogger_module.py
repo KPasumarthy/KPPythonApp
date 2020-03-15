@@ -11,7 +11,7 @@ class KPLogger:
     def __init__(self):
         self.logger = logging.getLogger("KP : KPPythonApp-PythonLogger.KPLogger");
         #File Handler : fh
-        fh = logging.FileHandler('KPPythonAppLogger.log')        
+        fh = logging.FileHandler('kppylogs\KPPythonAppLogger.log')        
         fh.setLevel(logging.DEBUG)
         #Console Handler : ch
         ch = logging.StreamHandler()

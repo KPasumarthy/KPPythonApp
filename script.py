@@ -8,8 +8,8 @@ import sys
 # KP : Import requests #KP : Run Command : 'pip install requests' : Installs 'requests' library
 import requests
 
-import auxiliary_module
-import kplogger_module
+import kppylogs.auxiliary_module
+import kppylogs.kplogger_module
 
 # KP : Import 'print' commandcl
 print(sys.version)
@@ -22,8 +22,8 @@ logger.setLevel(logging.DEBUG)
 # KP : Print & Logging
 logger.info('KP : kpPythonLogger : Creating an instance of auxillary_module.Auxillary')
 print('KP : kpPythonLogger : Creating an instance of auxillary_module.Auxillary')
-a = auxiliary_module.Auxiliary()
-kpl = kplogger_module.KPLogger()
+a = kppylogs.auxiliary_module.Auxiliary()
+kpl = kppylogs.kplogger_module.KPLogger()
 
 # KP : define 'greet()'
 def greet(who_to_greet):
@@ -44,9 +44,9 @@ url = "http://kpmvcwebapis.com/api/Persons/27"
 r = requests.get(url)
 print("KP : " + url + " Status Code : " + str(r.status_code)  + " Response OK : " + str(r.ok))
 if(r.ok) :
-    kplogger_module.info()
+    kppylogs.kplogger_module.info()
 else :
-    kplogger_module.error()
+    kppylogs.kplogger_module.error()
 
 
 
@@ -64,9 +64,9 @@ respString = ("KP : " + url + " Status Code : " + str(response.status_code) + " 
 print(respString)
 print(response.text)
 if(response.ok) :
-    kplogger_module.info()
+    kppylogs.kplogger_module.info()
 else :
-    kplogger_module.error()
+    kppylogs.kplogger_module.error()
 
 
 # KP : Initialize External API Requests
@@ -74,10 +74,10 @@ url = "https://www.cnn.com/"
 response = requests.get(url)
 if (response.ok) :
     respString = ("KP : " + url + " Status Code : " + str(response.status_code) + " Response OK : " + str(response.ok));
-    kplogger_module.info()
+    kppylogs.kplogger_module.info()
 else :
     respString = ("KP : " + url + " Status Code : " + str(response.status_code) + " Response OK : " + str(response.ok));
-    kplogger_module.error()
+    kppylogs.kplogger_module.error()
 
 print(respString)
 # print(response.text);
@@ -120,8 +120,8 @@ url = "https://www.cnn.com/"
 response = requests.get(url)
 if(response.ok):
     respString = ("KP : " + url + " Status Code : " + str(response.status_code) + " Response OK : " + str(response.ok));
-    kplogger_module.info()
-    auxiliary_module.some_function()
+    kppylogs.kplogger_module.info()
+    kppylogs.auxiliary_module.some_function()
     a.do_something()
   
 
