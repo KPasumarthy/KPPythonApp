@@ -8,8 +8,13 @@ import sys
 # KP : Import requests #KP : Run Command : 'pip install requests' : Installs 'requests' library
 import requests
 
+# KP : Import Python Logger Modules
 import kppylogs.auxiliary_module
 import kppylogs.kplogger_module
+
+# KP : Import backend SQL Connectors
+import backend.mysqlpy
+import backend.mysqlpy.mysqlconn
 
 # KP : Import 'print' commandcl
 print(sys.version)
