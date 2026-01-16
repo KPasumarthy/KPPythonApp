@@ -1,4 +1,4 @@
-# KP : Import 'MySQL' Connector module
+### KP : Import 'MySQL' Connector module
 import mysql.connector
 #import kppylogs
 #import kppylogs.auxiliary_module
