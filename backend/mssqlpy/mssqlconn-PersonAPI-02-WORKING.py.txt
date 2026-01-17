@@ -19,11 +19,14 @@ class Person(BaseModel):
     first_name: str
     last_name: Union[str, None] = None
 
+
 class CustomJSONEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, datetime.datetime):
             return obj.isoformat()
         return json.JSONEncoder.default(self, obj)
+
+
 
 ###KP : 'Microsoft SQL' DB Connection  : MSSQL Connection WORKING!!
 print(sys.executable)
@@ -31,15 +34,18 @@ print("KP : mssqlconn.py : Python 'MSSQL' DB Connection" )
 cnxn = pyodbc.connect("Driver={SQL Server};"
                       "Server=localhost;"
                       "Database=AdventureWorks2022;"
-                      "UID=sa;PWD=mypassword;"
+                      "UID=sa;PWD=KPSQLServer2022sysadminPassword!;"
                       "Trusted_Connection=yes;")
 
 ##KP : Create Python FastAPI for 'MSSQL' Connection APIs
 app = FastAPI()
 
+
 #KP : 'MSSQL' Define Function to get Connection
 def getMSSQLConn():    
     return cnxn
+
+
 
 #KP : 'MSSQL' Define Function to get Connection
 def getMSSQLConnCursor():    
